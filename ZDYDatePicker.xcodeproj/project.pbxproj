@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2D4DC51FA0898E004AD79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DC41FA0898E004AD79C /* AppDelegate.swift */; };
+		7F2D4DC71FA0898E004AD79C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DC61FA0898E004AD79C /* ViewController.swift */; };
+		7F2D4DCA1FA0898E004AD79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D4DC81FA0898E004AD79C /* Main.storyboard */; };
+		7F2D4DCC1FA0898E004AD79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D4DCB1FA0898E004AD79C /* Assets.xcassets */; };
+		7F2D4DCF1FA0898E004AD79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D4DCD1FA0898E004AD79C /* LaunchScreen.storyboard */; };
+		7F2D4DDA1FA0898E004AD79C /* ZDYDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DD91FA0898E004AD79C /* ZDYDatePickerTests.swift */; };
+		7F2D4DE51FA0898E004AD79C /* ZDYDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DE41FA0898E004AD79C /* ZDYDatePickerUITests.swift */; };
+		7F2D4DF51FA089A3004AD79C /* ZDYDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DF21FA089A3004AD79C /* ZDYDatePicker.swift */; };
+		7F2D4DF61FA089A3004AD79C /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DF31FA089A3004AD79C /* UIButton+Extension.swift */; };
+		7F2D4DF71FA089A3004AD79C /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D4DF41FA089A3004AD79C /* UILabel+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F2D4DD61FA0898E004AD79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2D4DB91FA0898E004AD79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2D4DC01FA0898E004AD79C;
+			remoteInfo = ZDYDatePicker;
+		};
+		7F2D4DE11FA0898E004AD79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2D4DB91FA0898E004AD79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2D4DC01FA0898E004AD79C;
+			remoteInfo = ZDYDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F2D4DC11FA0898E004AD79C /* ZDYDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDYDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D4DC41FA0898E004AD79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F2D4DC61FA0898E004AD79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F2D4DC91FA0898E004AD79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2D4DCB1FA0898E004AD79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2D4DCE1FA0898E004AD79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F2D4DD01FA0898E004AD79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2D4DD51FA0898E004AD79C /* ZDYDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDYDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D4DD91FA0898E004AD79C /* ZDYDatePickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDYDatePickerTests.swift; sourceTree = "<group>"; };
+		7F2D4DDB1FA0898E004AD79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2D4DE01FA0898E004AD79C /* ZDYDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDYDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D4DE41FA0898E004AD79C /* ZDYDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDYDatePickerUITests.swift; sourceTree = "<group>"; };
+		7F2D4DE61FA0898E004AD79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2D4DF21FA089A3004AD79C /* ZDYDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDYDatePicker.swift; sourceTree = "<group>"; };
+		7F2D4DF31FA089A3004AD79C /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		7F2D4DF41FA089A3004AD79C /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2D4DBE1FA0898E004AD79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DD21FA0898E004AD79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DDD1FA0898E004AD79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2D4DB81FA0898E004AD79C = {
+			isa = PBXGroup;
+			children = (
+				7F2D4DC31FA0898E004AD79C /* ZDYDatePicker */,
+				7F2D4DD81FA0898E004AD79C /* ZDYDatePickerTests */,
+				7F2D4DE31FA0898E004AD79C /* ZDYDatePickerUITests */,
+				7F2D4DC21FA0898E004AD79C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2D4DC21FA0898E004AD79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D4DC11FA0898E004AD79C /* ZDYDatePicker.app */,
+				7F2D4DD51FA0898E004AD79C /* ZDYDatePickerTests.xctest */,
+				7F2D4DE01FA0898E004AD79C /* ZDYDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2D4DC31FA0898E004AD79C /* ZDYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D4DC41FA0898E004AD79C /* AppDelegate.swift */,
+				7F2D4DC61FA0898E004AD79C /* ViewController.swift */,
+				7F2D4DF21FA089A3004AD79C /* ZDYDatePicker.swift */,
+				7F2D4DF31FA089A3004AD79C /* UIButton+Extension.swift */,
+				7F2D4DF41FA089A3004AD79C /* UILabel+Extension.swift */,
+				7F2D4DC81FA0898E004AD79C /* Main.storyboard */,
+				7F2D4DCB1FA0898E004AD79C /* Assets.xcassets */,
+				7F2D4DCD1FA0898E004AD79C /* LaunchScreen.storyboard */,
+				7F2D4DD01FA0898E004AD79C /* Info.plist */,
+			);
+			path = ZDYDatePicker;
+			sourceTree = "<group>";
+		};
+		7F2D4DD81FA0898E004AD79C /* ZDYDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D4DD91FA0898E004AD79C /* ZDYDatePickerTests.swift */,
+				7F2D4DDB1FA0898E004AD79C /* Info.plist */,
+			);
+			path = ZDYDatePickerTests;
+			sourceTree = "<group>";
+		};
+		7F2D4DE31FA0898E004AD79C /* ZDYDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D4DE41FA0898E004AD79C /* ZDYDatePickerUITests.swift */,
+				7F2D4DE61FA0898E004AD79C /* Info.plist */,
+			);
+			path = ZDYDatePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2D4DC01FA0898E004AD79C /* ZDYDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2D4DE91FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePicker" */;
+			buildPhases = (
+				7F2D4DBD1FA0898E004AD79C /* Sources */,
+				7F2D4DBE1FA0898E004AD79C /* Frameworks */,
+				7F2D4DBF1FA0898E004AD79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDYDatePicker;
+			productName = ZDYDatePicker;
+			productReference = 7F2D4DC11FA0898E004AD79C /* ZDYDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F2D4DD41FA0898E004AD79C /* ZDYDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2D4DEC1FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePickerTests" */;
+			buildPhases = (
+				7F2D4DD11FA0898E004AD79C /* Sources */,
+				7F2D4DD21FA0898E004AD79C /* Frameworks */,
+				7F2D4DD31FA0898E004AD79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2D4DD71FA0898E004AD79C /* PBXTargetDependency */,
+			);
+			name = ZDYDatePickerTests;
+			productName = ZDYDatePickerTests;
+			productReference = 7F2D4DD51FA0898E004AD79C /* ZDYDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F2D4DDF1FA0898E004AD79C /* ZDYDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2D4DEF1FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePickerUITests" */;
+			buildPhases = (
+				7F2D4DDC1FA0898E004AD79C /* Sources */,
+				7F2D4DDD1FA0898E004AD79C /* Frameworks */,
+				7F2D4DDE1FA0898E004AD79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2D4DE21FA0898E004AD79C /* PBXTargetDependency */,
+			);
+			name = ZDYDatePickerUITests;
+			productName = ZDYDatePickerUITests;
+			productReference = 7F2D4DE01FA0898E004AD79C /* ZDYDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2D4DB91FA0898E004AD79C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "云中科技";
+				TargetAttributes = {
+					7F2D4DC01FA0898E004AD79C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7F2D4DD41FA0898E004AD79C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F2D4DC01FA0898E004AD79C;
+					};
+					7F2D4DDF1FA0898E004AD79C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F2D4DC01FA0898E004AD79C;
+					};
+				};
+			};
+			buildConfigurationList = 7F2D4DBC1FA0898E004AD79C /* Build configuration list for PBXProject "ZDYDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2D4DB81FA0898E004AD79C;
+			productRefGroup = 7F2D4DC21FA0898E004AD79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2D4DC01FA0898E004AD79C /* ZDYDatePicker */,
+				7F2D4DD41FA0898E004AD79C /* ZDYDatePickerTests */,
+				7F2D4DDF1FA0898E004AD79C /* ZDYDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F2D4DBF1FA0898E004AD79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2D4DCF1FA0898E004AD79C /* LaunchScreen.storyboard in Resources */,
+				7F2D4DCC1FA0898E004AD79C /* Assets.xcassets in Resources */,
+				7F2D4DCA1FA0898E004AD79C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DD31FA0898E004AD79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DDE1FA0898E004AD79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2D4DBD1FA0898E004AD79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2D4DC71FA0898E004AD79C /* ViewController.swift in Sources */,
+				7F2D4DF61FA089A3004AD79C /* UIButton+Extension.swift in Sources */,
+				7F2D4DF71FA089A3004AD79C /* UILabel+Extension.swift in Sources */,
+				7F2D4DF51FA089A3004AD79C /* ZDYDatePicker.swift in Sources */,
+				7F2D4DC51FA0898E004AD79C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DD11FA0898E004AD79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2D4DDA1FA0898E004AD79C /* ZDYDatePickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2D4DDC1FA0898E004AD79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2D4DE51FA0898E004AD79C /* ZDYDatePickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2D4DD71FA0898E004AD79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2D4DC01FA0898E004AD79C /* ZDYDatePicker */;
+			targetProxy = 7F2D4DD61FA0898E004AD79C /* PBXContainerItemProxy */;
+		};
+		7F2D4DE21FA0898E004AD79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2D4DC01FA0898E004AD79C /* ZDYDatePicker */;
+			targetProxy = 7F2D4DE11FA0898E004AD79C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F2D4DC81FA0898E004AD79C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2D4DC91FA0898E004AD79C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F2D4DCD1FA0898E004AD79C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2D4DCE1FA0898E004AD79C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F2D4DE71FA0898E004AD79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2D4DE81FA0898E004AD79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2D4DEA1FA0898E004AD79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDYDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F2D4DEB1FA0898E004AD79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDYDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7F2D4DED1FA0898E004AD79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDYDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDYDatePicker.app/ZDYDatePicker";
+			};
+			name = Debug;
+		};
+		7F2D4DEE1FA0898E004AD79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDYDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDYDatePicker.app/ZDYDatePicker";
+			};
+			name = Release;
+		};
+		7F2D4DF01FA0898E004AD79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZDYDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZDYDatePicker;
+			};
+			name = Debug;
+		};
+		7F2D4DF11FA0898E004AD79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZDYDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abner.ZDYDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZDYDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2D4DBC1FA0898E004AD79C /* Build configuration list for PBXProject "ZDYDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2D4DE71FA0898E004AD79C /* Debug */,
+				7F2D4DE81FA0898E004AD79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2D4DE91FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2D4DEA1FA0898E004AD79C /* Debug */,
+				7F2D4DEB1FA0898E004AD79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F2D4DEC1FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2D4DED1FA0898E004AD79C /* Debug */,
+				7F2D4DEE1FA0898E004AD79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F2D4DEF1FA0898E004AD79C /* Build configuration list for PBXNativeTarget "ZDYDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2D4DF01FA0898E004AD79C /* Debug */,
+				7F2D4DF11FA0898E004AD79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2D4DB91FA0898E004AD79C /* Project object */;
+}
